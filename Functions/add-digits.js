@@ -1,7 +1,11 @@
+// https://leetcode.com/problems/add-digits/
+
 /**
  * @param {number} num
  * @return {number}
  */
+
+
 
 // Using recursion
 var addDigitsRecursion = function(num) {
@@ -21,6 +25,8 @@ var addDigitsRecursion = function(num) {
 
 };
 console.log(addDigitsRecursion(19));
+
+
 
 // Learned something about 9 - for time complexity of o(1)
 var addDigits = function(num) {
